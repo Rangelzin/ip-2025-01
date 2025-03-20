@@ -9,7 +9,6 @@ func main() {
 	var media float32
 	notas := [3]float32{1,2,3}
 	
-
 	fmt.Println("Envie as 3 notas: ")
 	fmt.Scanln(&notas[0],&notas[1],&notas[2])
 
