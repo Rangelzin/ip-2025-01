@@ -23,5 +23,4 @@ func main() {
 		fmt.Print(numero1,numero2, numero3)
 		fmt.Println("")
 	}
-	
 }
