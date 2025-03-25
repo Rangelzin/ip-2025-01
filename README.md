@@ -22,7 +22,6 @@ Para visualizar os projetos:
    ```bash
     code .
    
-   
 Encontre o Arquivo que deseja reproduzir e execute estes comandos:
 
 1. Verifique se há o copilador do GO instalado:
@@ -30,7 +29,7 @@ Encontre o Arquivo que deseja reproduzir e execute estes comandos:
     ```bash
     go version
 
-Caso não constar versão, vai até o link e o baixe <a href="https://go.dev/doc/install">Aqui!</a>
+Caso não constar versão, vai até o link e o baixe <a target="_blank" href="https://go.dev/doc/install">Aqui!</a>
 
 2. Executar o comando:
    
