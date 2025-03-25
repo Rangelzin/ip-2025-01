@@ -17,10 +17,25 @@ Para visualizar os projetos:
    ```bash
     cd GOlang-UFG-studies
     ```
+3. Abra seu Visual Studio Code(Recomendação):
    
-Navegue até o diretório do projeto que deseja visualizar.
+   ```bash
+    code .
+   
+   
+Encontre o Arquivo que deseja reproduzir e execute estes comandos:
 
-Abra o arquivo o link de cada projeto em seu navegador para ver o resultado.
+1. Verifique se há o copilador do GO instalado:
+
+    ```bash
+    go version
+
+Caso não constar versão, vai até o link e o baixe <a href="https://go.dev/doc/install">Aqui!</a>
+
+2. Executar o comando:
+   
+   ```bash
+    go run ./pasta/nome-do-arquivo.go
 
 ## Contribuição
 
