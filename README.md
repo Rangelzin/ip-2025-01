@@ -1,12 +1,12 @@
 # Projetos de Estudo de GO 
 
-Este repositório contém diversos projetos de estudo em GO pang para UFG e outros projetos.
+Este repositório contém diversos projetos/listas de estudo em GO lang para UFG e outros projetos.
 
 ## Como usar
 
 Para visualizar os projetos:
 
-1. Clone o repositório de projeto em ReactJS para sua máquina local usando o comando:
+1. Clone o repositório de projeto em GO para sua máquina local usando o comando:
    
     ```bash
     git clone https://github.com/Rangelzin/ip-2025-01.git
@@ -21,13 +21,15 @@ Para visualizar os projetos:
    
    ```bash
     code .
-   
+    ```
+    
 Encontre o Arquivo que deseja reproduzir e execute estes comandos:
 
 1. Verifique se há o copilador do GO instalado:
 
     ```bash
     go version
+    ```
 
 Caso não constar versão, vai até o link e o baixe <a target="_blank" href="https://go.dev/doc/install">Aqui!</a>
 
@@ -35,6 +37,7 @@ Caso não constar versão, vai até o link e o baixe <a target="_blank" href="ht
    
    ```bash
     go run ./pasta/nome-do-arquivo.go
+    ```
 
 ## Contribuição
 
