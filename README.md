@@ -9,13 +9,13 @@ Para visualizar os projetos:
 1. Clone o repositório de projeto em ReactJS para sua máquina local usando o comando:
    
     ```bash
-    git clone https://github.com/Rangelzin/GOlang-UFG-studies.git
+    git clone https://github.com/Rangelzin/ip-2025-01.git
     ```
     
 2. Acesse o repositório:
    
    ```bash
-    cd GOlang-UFG-studies
+    cd ip-2025-01
     ```
 3. Abra seu Visual Studio Code(Recomendação):
    
