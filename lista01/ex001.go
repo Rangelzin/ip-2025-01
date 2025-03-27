@@ -15,10 +15,8 @@ func main() {
 	media = (notas[0]+ notas[1]+ notas[2]) / 3.0
 
 	if media >= 6 {
-		fmt.Println(fmt.Sprintf("A Média do aluno é: "),media)
-		fmt.Println("APROVADO!")
+		fmt.Printf("A Média do aluno é: %.2f\nAPROVADO!",media)
 	} else {
-		fmt.Println(fmt.Sprintf("A Média do aluno é: "),media)
-		fmt.Println("REPROVADO!")
+		fmt.Printf("A Média do aluno é: %.2f\nREPROVADO!",media)
 	}
 }
