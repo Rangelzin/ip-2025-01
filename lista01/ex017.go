@@ -18,8 +18,9 @@ func main() {
 		fmt.Print("O primeiro numero não é par!\n")
 	} else {
 		for i := 0; i < qtd; i++ {
-			fmt.Printf("%d\n",valInit)
-				valInit += 2
+			fmt.Printf("%d ",valInit)
+			valInit += 2
 		}
+		fmt.Println()
 	}
 }

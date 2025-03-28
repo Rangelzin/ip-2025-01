@@ -19,6 +19,6 @@ func main() {
 		numbigger, _ := strconv.Atoi(concatenado)
 	
 		
-		fmt.Printf("%s,%d\n", concatenado, numbigger*numbigger)
+		fmt.Printf("%s, %d\n", concatenado, numbigger*numbigger)
 	}
 }

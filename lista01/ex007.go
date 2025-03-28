@@ -14,6 +14,6 @@ func main() {
 	tempC = 5 * (tempF - 32)/9
 	mm = pol * 25.4
 
-	fmt.Printf("O valor em Celsius = %.2f°C\n", tempC)
-	fmt.Printf("A quantidade de chuva e = %.2f mm\n", mm)
+	fmt.Printf("O valor em Celsius = %.2f\n", tempC)
+	fmt.Printf("A quantidade de chuva e = %.2f \n", mm)
 }

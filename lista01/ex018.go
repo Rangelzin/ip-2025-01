@@ -16,5 +16,5 @@ func main() {
 	for i := 1; i <= n; i++ {
 		soma += valInit + ((i-1)*r)
 	}
-	fmt.Printf("A soma da P.A é %d\n", soma)
+	fmt.Printf("O valor da soma da P.A é %d\n", soma)
 }

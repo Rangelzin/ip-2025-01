@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("Digite o valor da nota: ")
 	fmt.Scan(&nota)
 	
-	if nota < 6 {
+	if nota > 0 && nota < 6 {
 		fmt.Printf("Nota: %.1f - Conceito: D\n", nota)
 	} else if nota >=6 && nota < 7.5{
 		fmt.Printf("Nota: %.1f - Conceito: C\n", nota)

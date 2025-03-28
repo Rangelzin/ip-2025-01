@@ -23,5 +23,4 @@ func main() {
 	}
 
 	fmt.Printf("O Valor do somatório: %.6f\n", soma)
-
 }

@@ -11,7 +11,6 @@ func main() {
 	fmt.Scan(&c)
 	fmt.Scan(&d)
 
-
 	det = a*d - b*c
 	fmt.Printf("O valor do determinante é = %.2f\n", det)
 }

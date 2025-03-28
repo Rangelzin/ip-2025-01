@@ -23,5 +23,5 @@ func main() {
 		totalseg += seg[i]
 	}
 
-	fmt.Printf("O tempo em segundos: %d\n", totalseg)
+	fmt.Printf("O tempo em segundos: %d seg\n", totalseg)
 }

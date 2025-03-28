@@ -31,6 +31,6 @@ func main() {
 		fmt.Print("TIPO INVÁLIDO!")
 	}
 
-	fmt.Println("CONTA = R$", conta)
-	fmt.Println("VALOR DA CONTA = R$", valor)
+	fmt.Printf("CONTA = %.d\n", conta)
+	fmt.Printf("VALOR DA CONTA = R$%.2f\n", valor)
 }

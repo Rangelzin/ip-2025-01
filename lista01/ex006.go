@@ -6,8 +6,8 @@ import "fmt"
 func main() {
 
 	var qtd int
-	tempF :=  [3]float32{1,2,3}
-	tempC :=  [3]float32{1,2,3}
+	tempF :=  [3]float32{}
+	tempC :=  [3]float32{}
 	
 	fmt.Print("Quantas temperaturas deseja informar? ")
 	fmt.Scan(&qtd)

@@ -19,6 +19,5 @@ func main() {
 		newSalary =  salary * 1.3
 	}
 
-	fmt.Printf("Salário com reajuste = R$%.2f\n", newSalary)
-
+	fmt.Printf("Salário com reajuste R$%.2f\n", newSalary)
 }

@@ -23,6 +23,5 @@ func main() {
 	}
 
 	
-
-	fmt.Printf("O valor a ser pago é de R$ %.2f\n", valor)
+	fmt.Printf("O valor a ser pago é R$ %.2f\n", valor)
 }

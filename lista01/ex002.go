@@ -21,9 +21,17 @@ func main() {
 
 	for i := 0; i <= jogos-1; i++ {
 		
-		fmt.Print("INSIRA OS DADOS JOGO N. ", i+1 )
-		fmt.Scanln(&pubtot,&popular,&geral,&arquibancada,&cadeiras)
-
+		fmt.Printf("O número de pessoas que compraram ingresso para o jogo N. %.d: ", i+1 )
+		fmt.Scanln(&pubtot)
+		fmt.Printf("A percentagem de pessoas que compraram ingresso na categoria Popular do jogo N. %.d: ", i+1 )
+		fmt.Scanln(&popular)
+		fmt.Printf("A percentagem de pessoas que compraram ingresso na categoria Geral do jogo N. %.d: ", i+1 )
+		fmt.Scanln(&geral)
+		fmt.Printf("A percentagem de pessoas que compraram ingresso na categoria Arquibancada do jogo N. %.d: ", i+1 )
+		fmt.Scanln(&arquibancada)
+		fmt.Printf("A percentagem de pessoas que compraram ingresso na categoria Cadeiras do jogo N. %.d: ", i+1 )
+		fmt.Scanln(&cadeiras)
+		
 		receita[0] = pubtot * (popular/100) * 1
        	receita[1] = pubtot * (geral/100) * 5
        	receita[2] = pubtot * (arquibancada/100) * 10

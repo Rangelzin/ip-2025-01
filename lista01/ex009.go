@@ -10,7 +10,6 @@ func main() {
 	fmt.Scan(&b)
 	fmt.Scan(&c)
 
-
 	delta = b*b - 4*a*c
 
 	fmt.Printf("O valor do delta é = %.2f\n", delta)	
