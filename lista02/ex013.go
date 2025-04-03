@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -11,8 +13,12 @@ func main() {
 
 	if numero < 100 {
 		fmt.Println("Seu número não tem 3 casas!")
-	} else {
-		
+	} else if numero > 999 {
+		fmt.Println("Seu número tem mais de 3 casas!") 
+	}else {
+		centena := numero / 100
+		dezena := (numero - centena*100) / 10
+	
+		fmt.Printf("Algarismo da dezena: %d\n", dezena)
 	}
-
 }
