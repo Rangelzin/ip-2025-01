@@ -17,6 +17,8 @@ func main() {
 			fmt.Println("Equilatero")
 		} else if X != Y && Y != Z{
 			fmt.Println("Escaleno")
-		} 
+		} else if X == Y || Y == Z || X == Z {
+			fmt.Println("Isosceles")
+		}
 	}
 }
