@@ -1,16 +1,23 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	var salarioCarlos float64
+func main()  {
+	var salarioC, salarioJ, MontC, MontJ float64
+	var tempo int
 
-	fmt.Print("Digite o salario do Carlos: ")
-	fmt.Scan(&salarioCarlos)
-	
-	salarioJoao := salarioCarlos / 3
+	fmt.Print("Digite o valor do salário do Carlos: ")
+	fmt.Scan(&salarioC)
 
-	for i := 0; i < count; i++ {
-		M := (salarioJoao * (1 + 0.02)) * i
-	} 
+	salarioJ = salarioC/3
+	MontC, MontJ = salarioC, salarioJ
+
+	for MontJ < MontC {
+		MontC = MontC * 1.02
+		MontJ = MontJ * 1.05
+		tempo += 1
+	}
+	fmt.Printf("Tempo de meses necessários: %d\n",tempo)
 }
