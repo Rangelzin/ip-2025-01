@@ -1,32 +1,28 @@
 package main 
 
-import "fmt"
+import (
+	"math"
+	"fmt"
+)
 
 func main() {
-	var (
-		numero int
+	var numero,valorRaiz float64
 
-	)
-	fmt.Print("Digite um valor: ")
-	fmt.Scan(&numero)
-
-	if numero > 0 {
-		for numero > 0 {
-			fmt.Print("Digite um valor: ")
-			fmt.Scan(&numero)
-
-			quadrado := float64(numero * numero)
-
-			for i := 1; i <= int(quadrado); i++ {
-				if quadrado / float64(i) == float64(numero) {
-					fmt.Println("Quadrado perfeito encontrado")
-					break 
-				}
+	for {
+		fmt.Print("Digite um valor: ")
+		fmt.Scan(&numero)
+	
+		if numero > 0 {
+			valorRaiz = math.Pow(numero, 0.5)
+	
+			if valorRaiz == math.Floor(valorRaiz) {
+				fmt.Println("O número é um quadrado perfeito")
+			} else {
+				fmt.Println("O número NÃO é um quadrado perfeito")
 			}
-
-			fmt.Println("Loop encerrado para o número:", numero)
+			
+		} else {
+			return 
 		}
-	} else {
-		fmt.Print("")
 	}
 }
