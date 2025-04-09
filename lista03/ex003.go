@@ -4,19 +4,19 @@ import (
 	"fmt"
 )
 
-func main()  {
-	var salarioC, salarioJ, MontC, MontJ float64
+func main() {
+	var salarioCarlos, salarioJoao, MontCarlos, MontJoao float64
 	var tempo int
 
 	fmt.Print("Digite o valor do salário do Carlos: ")
-	fmt.Scan(&salarioC)
+	fmt.Scan(&salarioCarlos)
 
-	salarioJ = salarioC/3
-	MontC, MontJ = salarioC, salarioJ
+	salarioJoao = salarioCarlos/3
+	MontCarlos, MontJoao = salarioCarlos, salarioJoao
 
-	for MontJ < MontC {
-		MontC = MontC * 1.02
-		MontJ = MontJ * 1.05
+	for MontJoao < MontCarlos {
+		MontCarlos = MontCarlos * 1.02
+		MontJoao = MontJoao * 1.05
 		tempo += 1
 	}
 	fmt.Printf("Tempo de meses necessários: %d\n",tempo)
