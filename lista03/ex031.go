@@ -3,7 +3,10 @@ package main
 import f "fmt"
 
 func main() {
-	var contador, soma float64 = 1, 1
+	var (
+		contador float64 = 1
+		soma     float64 = 1
+	)
 
 	for i := 1; i <= 64; i++ {
 		f.Printf("%d - %.0f\n", i, contador)

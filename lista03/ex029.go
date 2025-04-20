@@ -13,6 +13,5 @@ func main() {
 	for i := 1; i <= numero; i++ {
 		soma += i
 	}
-
 	f.Printf("Soma: %d\n ", soma)
 }

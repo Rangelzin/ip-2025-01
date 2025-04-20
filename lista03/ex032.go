@@ -11,6 +11,5 @@ func main() {
 	for i := 1.0; i <= N2; i++ {
 		multi += N1
 	}
-
 	f.Printf("%.0f x %.0f = %.0f", N1, N2, multi)
 }

@@ -6,12 +6,10 @@ import (
 )
 
 func main() {
-	var (
-		resultado float64
-		sinal     float64 = 1
-		produto   float64
-		contador  float64 = 1
-	)
+	var resultado, produto float64
+
+	contador := 1.0
+	sinal := 1.0
 
 	for i := 1.0; i <= 51; i++ {
 		potencia := m.Pow(contador, 3)
@@ -20,7 +18,6 @@ func main() {
 		sinal *= -1
 		contador += 2
 	}
-
 	produto = m.Pow((resultado * 32), 1.0/3.0)
 	f.Printf("O valor do ∏ com 51 termos é igual a: %.15f", produto)
 }
