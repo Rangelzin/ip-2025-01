@@ -22,6 +22,7 @@ func main() {
 
 	cosNUM := m.Cos(numero)
 	dif := resultado - cosNUM
+	
 	f.Printf("%.4f %.4f %.4f", resultado, cosNUM, dif)
 }
 

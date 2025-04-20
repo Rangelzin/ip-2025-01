@@ -13,5 +13,6 @@ func main() {
 		soma += contador
 		contador *= 2
 	}
+
 	f.Printf("A soma de todas os milhos presentes no tabuleiro - %.0f\n", soma)
 }

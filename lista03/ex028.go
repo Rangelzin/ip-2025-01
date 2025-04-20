@@ -18,6 +18,7 @@ func main() {
 		sinal *= -1
 		contador += 2
 	}
+
 	produto = m.Pow((resultado * 32), 1.0/3.0)
 	f.Printf("O valor do ∏ com 51 termos é igual a: %.15f", produto)
 }
