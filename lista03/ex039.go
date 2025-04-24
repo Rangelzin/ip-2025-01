@@ -25,7 +25,7 @@ func main() {
 			idMagro = id
 		}
 	}
+
 	f.Printf("Mais Gordo - ID: %d | Peso: %.1f\n", idPesado, maiorPeso)
 	f.Printf("Mais Magro - ID: %d | Peso: %.1f\n", idMagro, menorPeso)
-
 }

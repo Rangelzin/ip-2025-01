@@ -35,6 +35,7 @@ func main() {
 
 	j = 0
 	soma = 0
+
 	for i := 11; i > 1; i-- {
 		valorCPF := CPFnum[j]
 		soma += (valorCPF * i)
