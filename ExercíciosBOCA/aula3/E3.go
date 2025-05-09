@@ -14,6 +14,11 @@ func main() {
 		f.Scan(&vetOrigin[i])
 	}
 
+	if len(vetOrigin) == 1 {
+		f.Print(0)
+		return
+	}
+
 	newVet := make([]float64, len(vetOrigin))
 	for i := 0; i < qtd; i++ {
 		if i == 0 {
