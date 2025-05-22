@@ -14,7 +14,9 @@ func main() {
 	transposta := make([][]int, M)
 	for i := 0; i < N; i++ {
 		matrix[i] = make([]int, M)
-		transposta[i] = make([]int, N)
+	}
+	for j := 0; j < M; j++ {
+		transposta[j] = make([]int, N)
 	}
 
 	// Armazena o valor
@@ -32,12 +34,12 @@ func main() {
 		}
 	}
 
-	// Exibe a matriz e testa
-	for i := 0; i < N; i++ {
-		for j := 0; j < M; j++ {
+	// Exibe a matriz transposta corretamente
+	for i := 0; i < M; i++ {
+		for j := 0; j < N; j++ {
 			f.Printf("%d ", transposta[i][j])
 		}
-		if i != N-1 {
+		if i != M-1 {
 			f.Println()
 		}
 	}
