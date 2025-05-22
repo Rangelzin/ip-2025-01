@@ -24,8 +24,8 @@ func main() {
 	}
 
 	for j := 0; j < N; j++ {
-		for i := N-1; i >= 0; i-- {
-			matriz1[i][j] = matriz2[j][i]
+		for i := N - 1; i >= 0; i-- {
+			matriz2[j][i] = matriz1[i][j]
 		}
 	}
 
@@ -36,5 +36,3 @@ func main() {
 		f.Println()
 	}
 }
-
-
