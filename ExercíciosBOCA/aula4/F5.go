@@ -24,8 +24,10 @@ func main() {
 	}
 
 	for j := 0; j < N; j++ {
+		p := 0
 		for i := N - 1; i >= 0; i-- {
-			matriz2[j][i] = matriz1[i][j]
+			matriz2[j][p] = matriz1[i][j]
+			p++
 		}
 	}
 
